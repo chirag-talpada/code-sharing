@@ -1,0 +1,53 @@
+.formDiv{
+    position: absolute;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    width: 400px;
+    text-align: center;
+}
+
+.homeContainer{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-img{
+    height: 70px; 
+    user-select: none;   
+}
+
+.inputBoxContainer{
+    margin-top: 20px;
+}
+
+.input input,.input button{
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid gray;
+    outline: none;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.join-btn{
+    background-color: green;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+    border: none;
+}
+
+.newRoom-link{
+    margin-top: 20px;
+    user-select: none;
+}
+
+.newRoom-link a{
+    color: blue;
+    cursor: pointer;
+}

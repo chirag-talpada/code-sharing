@@ -1,0 +1,93 @@
+.editor-container{
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: 250px 1fr;
+}
+
+.aside{
+    background: rgb(37 37 38);
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    
+}
+
+.editor-wrapper{
+    background: #1e1e1e;
+    color: white;
+}
+
+.logo{
+    color: #ddd;
+    text-align: center;
+    font-weight: 500;
+}
+
+.aside hr{
+    opacity: 0.1;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.connected-user-container{
+    color: #ddd;
+    font-weight: 900;
+    margin-top: 20px;
+}
+
+.user-list{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+    font-size: 13px;
+    font-weight: 400;
+    height: calc(100vh - 211px);
+    overflow-y: auto;
+}
+
+.button-box{
+    margin-top: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.copy-roomid-btn,.leave-btn{
+    width: 100%;
+    padding: 7px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-weight: 500;
+    
+}
+
+.copy-roomid-btn:hover{
+    background: #bbb7b7;
+}
+
+.leave-btn{
+    background: red;
+    color: #fff;
+}
+
+::-webkit-scrollbar {
+    width: 7px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background-image: linear-gradient(180deg, #6a6666 0%, #565353 99%);
+    box-shadow: inset 2px 2px 5px 0 rgba(#fff, 0.5);
+    border-radius: 100px;
+}

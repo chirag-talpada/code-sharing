@@ -1,0 +1,17 @@
+.user-box{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.user-box:hover{
+    background:#454548 ;
+    border-radius: 10px;
+}
+
+.activate-user{
+    background: #454548;
+    padding: 5px;
+    border-radius: 10px;
+}
